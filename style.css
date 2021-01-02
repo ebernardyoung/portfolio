@@ -10,7 +10,7 @@ body {
     color: #142A3E;
     line-height: 1.6;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     
 
 }
@@ -183,10 +183,10 @@ section p {
 #projects h1 {
     display: block;
     width: fit-content;
-    font-size: 8rem;
+    font-size: 7rem;
     position: relative;
     color: #142A3E;
-    font-family: Big Shoulders Stencil Display;
+    font-family: Teko;
     text-transform: uppercase;
     align-items: left;
     justify-content: left;
