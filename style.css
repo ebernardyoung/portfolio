@@ -27,6 +27,7 @@ body {
 
 
 /* Section Layout */
+/*
 section {
     display: flex;
     flex-direction: column;
@@ -52,6 +53,8 @@ section h2{
 section p {
     font-size: 1.5rem;
 }
+
+*/
 /* End Section Layout*/
 
 
@@ -61,7 +64,15 @@ section p {
     background-size: cover;
     background-position: top center;
     position: relative;
-    z-index: 1
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
     
 
 }
@@ -73,8 +84,8 @@ section p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: .7;
+    background-color: #142A3E;
+    opacity: .3;
     z-index: -1;
 
 }
@@ -150,6 +161,49 @@ section p {
 }
 
 /* End Home Section */
+
+
+/* Projects Section */
+#projects{
+    
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+    
+
+}
+
+#projects h1 {
+    display: block;
+    width: fit-content;
+    font-size: 8rem;
+    position: relative;
+    color: #142A3E;
+    font-family: Big Shoulders Stencil Display;
+    text-transform: uppercase;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    /* animation: text_reveal .5s ease forwards;
+    animation-delay: 1.5s; */
+
+
+}
+
+#projects p {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* End Projects Section */
 
 /* Keyframes */
 @keyframes text_reveal_box{
